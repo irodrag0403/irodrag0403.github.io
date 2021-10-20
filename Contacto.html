@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+	<title>
+		Contacto
+	</title>
+</head>
+<body>
+	<form>
+		<p> Nombre y Apellidos:		<input type="text"		name="NombreyApellidos" 	size="25" 	autofocus></p>
+		<p> Correo Electrónico:		<input type="email" 	name="CorreoElectronico" 	size="35" 	placeholder="ejemplo@correo.com"></p>
+		<p> Teléfono de contacto:	<input type="tel"		name="Telefono" 			size="10" 	placeholder="123 45 67 89" required pattern="[0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}"></p>
+		<p> Presupuesto:			<input type="number" 	name="Presupuesto" 			min="500" 	max="5000"></p>
+		<p> Número de cuerdas:		<input type="number" 	name="Cuerdas" 				min="4"		max="12"></p>
+		<p> Número de trastes:		<input type="number" 	name="Trastes" 				min="20" 	max="24"></p>
+		<p> Tipo de pastillas:		<input list="Pastillas" name="Pastillas">	
+			<datalist id="Pastillas">
+			<option value="PJ">
+			<option value="Jazz">
+			<option value="Precission">
+			<option value="Humbuckers">
+			<option value="Single coil">
+		</p>
+		<p> Trastes en abanico:		<input type="checkbox"	name="Abanico"></p>
+		<p> Headless:				<input type="checkbox"	name="Headless"></p>
+		<p> Floyd rose:				<input type="checkbox"	name="FloydRose"></p>
+		<p> Killswitch:				<input type="checkbox"	name="Killswitch"></p>
+		<p> Comentarios:			<input type="text"		name="Comentarios"			size="50"	max="5000"></p>
+		<p> <input type="submit"> </p>
+	</form>
+</body>
+<footer>
+	<h2>
+		<a href="./PaginaPrincipal.html" style="text-decoration:none"> <font face="Roboto" size="4" color="#564314"> <i> Volver </i> </a>
+	</h2>
+</footer>
+</html>
