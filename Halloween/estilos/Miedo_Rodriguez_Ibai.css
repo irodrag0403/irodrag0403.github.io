@@ -2,18 +2,31 @@ body {
     background: url(../imagenes/Halloween-1.jpg);
     background-size: cover;
 }
+header{
+    color: purple;
+}
+
 img {
     width: 20em;    
     height: 20em;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.Cuadro_anuncios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .Anuncio {
     font-family: serif;
     font-weight: bolder;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    width: 30em;
+    border-style: solid;
+    border-width: medium;
+    border-color: red;
+    text-align: center;
 }
 
 .Anuncio:hover {
