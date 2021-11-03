@@ -1,0 +1,76 @@
+html {
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+p {
+    flex-flow: column;
+    width: 50%;
+    font-size: 1.5em;
+    color: crimson;
+}
+
+#nombre {
+    color: olive;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#correo {
+    font-size: 0.5em;
+    text-justify: distribute-all-lines;
+    text-transform: capitalize;
+}
+
+#div1 {
+    white-space: pre;
+}
+
+#div2 {
+    white-space: pre-wrap;
+}
+
+#div3 {
+    white-space: nowrap;
+}
+
+#div4 {
+    white-space: pre-line;
+}
+
+#enlace1 {
+    color: peru;
+    size: 10em;
+    text-decoration: royalblue;
+}
+
+#enlace2:hover {
+    color: black;
+}
+
+#enlace2:visited {
+    color: brown;
+}
+
+
+
+#enlace4 {
+    text-decoration: none;
+    background: #EEE;
+    color: #222;
+    border: 1px outset #CCC;
+    padding: .1em .5em;
+    width: 3em;
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+}
