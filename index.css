@@ -1,0 +1,43 @@
+html {
+    background: blanchedalmond;
+}
+
+.Titulo {
+    font-family: Verdana;
+    font-size: xx-large;
+    text-align: justify;
+}
+
+.Introduccion {
+    font-family: Verdana;
+    font-size: larger;
+    text-align: center;
+}
+
+.Introduccion img {
+    width: 80%;
+    height: 15%;
+}
+
+.Ejercicios {
+    font-family: monospace;
+}
+
+.Ejercicios header {
+    font-size: xx-large;
+}
+
+.Ejercicios article {
+    font-size: x-large;
+    color: darkblue;
+}
+
+.Ejercicios article ul:hover {
+    font-size: 1.5em;
+}
+
+footer {
+    font-family: fantasy;
+    text-align: right;
+    font-size: small;
+}
